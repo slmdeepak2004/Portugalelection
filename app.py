@@ -7,8 +7,8 @@ from sklearn.preprocessing import StandardScaler
 import joblib  # For loading the scaler
 
 # Load the trained model and scaler
-model = load_model('/content/mandates_prediction_model.h5')
-scaler = joblib.load('/content/standard_scaler.pkl')
+model = load_model('mandates_prediction_model.h5')
+scaler = joblib.load('standard_scaler.pkl')
 
 # Streamlit app
 st.title("Election Final Mandates Prediction")
